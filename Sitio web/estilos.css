@@ -1,0 +1,173 @@
+* {
+  padding:0;
+  margin: 0;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2 {
+    font-weight:bold;
+}
+
+header, nav, section, aside, footer, article, hgroup{
+    display: block;
+}
+    
+body {
+    text-align: center;
+    background-image: url(../Sitio\ web/images/regal.gif);
+}
+
+.agrupar {
+    background: chocolate;
+    width:1100px;
+    margin:auto;
+    border: 5px solid brown;
+}
+
+.cabecera {
+    background: #e84118;
+    border:3px solid brown;
+    padding: 15px;
+}
+
+.menu {
+    background: burlywood;
+    padding: 8px;
+    border: 2px solid  black;
+}
+
+.menu li{
+    list-style: none;
+    padding: 7px;
+    font: lighter 15px cursive;
+    display: inline-block;
+    border-left: solid 4px #eb4d4b;
+    border-right: solid 4px #eb4d4b;
+}
+
+
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover{ 
+    color:#f9ca24;
+    text-decoration: underline;
+}
+
+
+.seccion {
+    width:700px;
+    margin:20px;
+    float: left;
+}
+
+.columnas {
+    width: 250px;
+    float: left;
+    margin: 20px;
+}
+
+.ultimo {
+    clear: both;
+}
+
+article {
+    background: sandybrown;
+    border: solid 2px grey;
+    padding: 100px;
+    margin-bottom: 20px;
+}
+
+article p{
+    background:#dcdde1;
+    border: solid 2px black;
+    margin-top: 40px;
+}
+
+article time {
+    margin-top: 20px;
+    background: #7ed6df;
+    display: block;
+    margin: 30px 130px;
+}
+
+article img {
+    margin-top: 20px;
+}
+.coment1 p {
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.coment1 a {
+    margin-top: 10px;
+}
+
+.coment2 p {
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.columnas blockquote {
+       border: solid 2px black;
+       padding: 30px;
+       margin-top: 15px;
+       background: salmon;   
+}
+
+#meme {
+    background: none;
+    border: none;
+}
+
+#MI {
+    border-left: solid 4px #130f40 ;
+    border-right: solid 4px #130f40;
+    border-top: solid 4px #130f40;
+}
+
+#LA {
+    border-left: solid 4px #130f40 ;
+    border-right: solid 4px #130f40 ;
+    border-top: solid 4px #130f40;
+}
+
+h2 {
+    display: block;
+    border-bottom: solid 4px #130f40;
+    margin: 15px;
+}
+
+#BOTON button {
+    float: left;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 300px;
+    margin-left: 100px;
+    padding: 12px;
+    cursor: pointer;
+    background-color: #0097e6;
+    color: blanchedalmond;
+}
+
+#BOTON button:hover{
+    background-color: #7f8fa6;
+    color: black;
+}
+
+#BOTON button a {
+    text-decoration: none;
+}
+
+
+
+
